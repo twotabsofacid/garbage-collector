@@ -3,20 +3,13 @@
 // Requires
 const CONFIG = require('./config.json');
 const jetpack = require('fs-jetpack');
-const low = require('lowdb');
-const FileSync = require('lowdb/adapters/FileSync');
 const moment = require('moment');
 const chokidar = require('chokidar');
-
-// Instantiate the db
-const adapter = new FileSync(CONFIG.db);
-const db = low(adapter);
 
 class TrashCollector {
 	watch() {
 		let watcher = chokidar.watch(CONFIG.trash);
 		watcher.on('all', (event, path) => {
-			//console.log(event, path);
 			this.runSaveTrashItem(event, path);
 		});
 	}
@@ -33,16 +26,16 @@ class TrashCollector {
 			let fileInfo = jetpack.inspect(path);
 			let trashObj = {
 				name: fileInfo.name,
+				path: `${CONFIG.trash}/${fileInfo.name}`,
 				type: fileInfo.type,
 				size: fileInfo.size,
 				time: moment().format('MM/DD/YYYY,HH:mm:ss.SS')
 			};
-			// If we have a file, and if it's not a dot file
-			if (trashObj.type == 'file' && trashObj.name.split('')[0] !== '.') {
-				db.get('trash')
-					.push(trashObj)
-					.write();
-				this.uploadToServer();
+			// If we have a file, and if it's a screenshot
+			if (trashObj.type == 'file' && trashObj.name.indexOf('Screen Shot') !== -1) {
+				// Copy the file here
+				console.log(trashObj.path);
+				jetpack.copy(trashObj.path, `screenshots/${trashObj.name}`, { overwrite: true });
 			}
 		}
 	}
