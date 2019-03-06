@@ -22,7 +22,7 @@ Then you'll want to create `config.json` following the template of the `config.e
 pm2 startup
 ```
 
-to tell it to always run when your computer starts up, and:
+and copy the code that's shown in the terminal in order to tell it to always run when your computer starts up. Then:
 
 ```
 pm2 start trash-collector.js
