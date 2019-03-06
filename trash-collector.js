@@ -7,6 +7,10 @@ const moment = require('moment');
 const chokidar = require('chokidar');
 
 class TrashCollector {
+	start() {
+		// make sure we have a directory to save this stuff to
+		jetpack.dir(CONFIG.saved_trash);
+	}
 	watch() {
 		let watcher = chokidar.watch(CONFIG.trash);
 		watcher.on('all', (event, path) => {
@@ -35,7 +39,7 @@ class TrashCollector {
 			if (trashObj.type == 'file' && trashObj.name.indexOf('Screen Shot') !== -1) {
 				// Copy the file here
 				console.log(trashObj.path);
-				jetpack.copy(trashObj.path, `screenshots/${trashObj.name}`, { overwrite: true });
+				jetpack.copy(trashObj.path, `${CONFIG.saved_trash}/${trashObj.name}`, { overwrite: true });
 			}
 		}
 	}
