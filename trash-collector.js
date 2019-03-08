@@ -43,15 +43,6 @@ class TrashCollector {
 			}
 		}
 	}
-	/**
-	 * uploadToServer
-	 *
-	 * Here we want to upload all of our trash data to the server,
-	 * probably using some sort of npm package for scp
-	 */
-	uploadToServer() {
-
-	}
 }
 
 const collector = new TrashCollector();
