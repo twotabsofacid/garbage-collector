@@ -3,7 +3,6 @@
 // Requires
 const CONFIG = require('./config.json');
 const jetpack = require('fs-jetpack');
-const moment = require('moment');
 const chokidar = require('chokidar');
 
 class TrashCollector {
@@ -32,8 +31,7 @@ class TrashCollector {
 				name: fileInfo.name,
 				path: `${CONFIG.trash}/${fileInfo.name}`,
 				type: fileInfo.type,
-				size: fileInfo.size,
-				time: moment().format('MM/DD/YYYY,HH:mm:ss.SS')
+				size: fileInfo.size
 			};
 			// If we have a file, and if it's a screenshot
 			if (trashObj.type == 'file' && trashObj.name.indexOf('Screen Shot') !== -1) {

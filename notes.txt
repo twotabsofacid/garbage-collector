@@ -1,0 +1,3 @@
+- Tensorflow
+- possible this: https://towardsdatascience.com/generative-adversarial-networks-using-tensorflow-c8f4518406df
+- nick recommends this is easier: https://www.tensorflow.org/alpha/tutorials/generative/dcgan?fbclid=IwAR20NdbjUP_YfHpGwaA4_DVXjbYWpZ2C0RTEEvIOOsyU-QORa__i-cSwvQE
