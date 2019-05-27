@@ -63,7 +63,7 @@ class TrashCollector {
 				size: fileInfo.size
 			};
 			// If we have a file, and if it's a screenshot
-			if (trashObj.type == 'file' && this.checkIfImg(trashObj)) {
+			if (trashObj.type == 'file' && fs.existsSync(trashObj.path) && this.checkIfImg(trashObj)) {
 				// Copy the file here
 				// TODO, upload the file instead
 				console.log(trashObj.path);
