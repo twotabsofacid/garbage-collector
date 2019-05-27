@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "chokidar": "^2.1.0",
-    "fs-jetpack": "^2.2.1"
+    "fs-jetpack": "^2.2.1",
+    "sharp": "^0.22.1"
   }
 }

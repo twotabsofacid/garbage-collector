@@ -9,6 +9,7 @@ const CONFIG = {
 const fs = require('fs');
 const jetpack = require('fs-jetpack');
 const chokidar = require('chokidar');
+const sharp = require('sharp');
 
 class TrashCollector {
 	/**
@@ -66,8 +67,17 @@ class TrashCollector {
 			if (trashObj.type == 'file' && fs.existsSync(trashObj.path) && this.checkIfImg(trashObj)) {
 				// Copy the file here
 				// TODO, upload the file instead
-				console.log(trashObj.path);
-				jetpack.copy(trashObj.path, `${CONFIG.saved_trash}/${trashObj.name}`, { overwrite: true });
+				//console.log(trashObj.path);
+				let newImgName = this.createNewImgName(trashObj.name);
+				sharp(`${trashObj.path}`)
+					.toFile(`${CONFIG.saved_trash}/${newImgName}`, (err, info) => {
+						if (err) {
+							console.warn(err);
+						} else {
+							info.filePath = `${CONFIG.saved_trash}/${newImgName}`;
+							console.log(info);
+						}
+					});
 			}
 		}
 	}
@@ -85,6 +95,25 @@ class TrashCollector {
 			return true;
 		} else {
 			return false;
+		}
+	}
+	/**
+	 * createNewImgName
+	 *
+	 * @param  {string} name [the name of the file]
+	 * @return {string}      [the new name for the file, with .jpg]
+	 *
+	 * This is a horrible fucking function to give us a correctly named file, with jpg at the end
+	 */
+	createNewImgName(name) {
+		if (name.indexOf('.png') !== -1) {
+			return `${name.split('.png')[0]}.jpg`;
+		} else if (name.indexOf('.jpg') !== -1) {
+			return name;
+		} else if (name.indexOf('.jpeg') !== -1) {
+			return `${name.split('.jpeg')[0]}.jpg`;
+		} else if (name.indexOf('.gif') !== -1) {
+			return `${name.split('.gif')[0]}.jpg`;
 		}
 	}
 }
