@@ -35,4 +35,5 @@ to run the actual program in the background of your computer.
 * Look into Dithering images to save space
 * Publish images online
 * Properly slugify file names
+* Make all images JPEGs
 * Make compatible with ~~linux~~ and windows machines.

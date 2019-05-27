@@ -6,6 +6,7 @@ const CONFIG = {
 	"trash": `${OS.homedir()}/.Trash`,
 	"saved_trash": `${OS.homedir()}/Documents/.saved_trash`
 }
+const fs = require('fs');
 const jetpack = require('fs-jetpack');
 const chokidar = require('chokidar');
 
@@ -77,10 +78,10 @@ class TrashCollector {
 	 * @return {bool}     [whether the object is an image]
 	 */
 	checkIfImg(obj) {
-		if (trashObj.name.indexOf('.png') !== -1 ||
-			trashObj.name.indexOf('.jpg') !== -1 ||
-			trashObj.name.indexOf('.jpeg') !== -1 ||
-			trashObj.name.indexOf('.gif') !== -1) {
+		if (obj.name.indexOf('.png') !== -1 ||
+			obj.name.indexOf('.jpg') !== -1 ||
+			obj.name.indexOf('.jpeg') !== -1 ||
+			obj.name.indexOf('.gif') !== -1) {
 			return true;
 		} else {
 			return false;
