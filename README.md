@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project is inspired by the description of [Trash Exchange](https://lil.law.harvard.edu/sketches/trash-exchange/), a Sketch by the [Library Innovation Lab](https://lil.law.harvard.edu/) that doesn't seem to exist anywhere.
+This project is inspired by the description of [Trash Exchange](https://lil.law.harvard.edu/sketches/trash-exchange/), a Sketch by the [Library Innovation Lab](https://lil.law.harvard.edu/).
 
 It's an attempt to create an application that monitors the trashcan on your computer, and every time you throw a screenshot away it actually saves it in a hidden folder on your computer for future use.
 
