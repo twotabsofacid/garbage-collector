@@ -25,7 +25,7 @@ pm2 startup
 and copy the code that's shown in the terminal in order to tell it to always run when your computer starts up. Then:
 
 ```
-pm2 start trash-collector.js
+pm2 start garbage-collector.js
 ```
 
 to run the actual program in the background of your computer.
