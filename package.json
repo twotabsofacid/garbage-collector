@@ -2,8 +2,9 @@
   "name": "garbage-collector",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "garbage-collector.js",
   "scripts": {
+    "start": "node garbage-collector.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
