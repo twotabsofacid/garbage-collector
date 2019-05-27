@@ -89,4 +89,3 @@ class TrashCollector {
 }
 
 const collector = new TrashCollector();
-collector.watch();
