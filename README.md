@@ -16,7 +16,7 @@ To run this project yourself, first clone this repo and install all the dependen
 npm install
 ```
 
-Then you'll want to create `config.json` following the template of the `config.example.json`. After that, you'll need to install [pm2](http://pm2.keymetrics.io/), which will allow you to run this process in the background of your computer at all times. Once `pm2` is installed, run
+After that, you'll need to install [pm2](http://pm2.keymetrics.io/), which will allow you to run this process in the background of your computer at all times. Once `pm2` is installed, run
 
 ```
 pm2 startup
@@ -29,3 +29,10 @@ pm2 start garbage-collector.js
 ```
 
 to run the actual program in the background of your computer.
+
+## TODOS
+
+* Look into Dithering images to save space
+* Publish images online
+* Properly slugify file names
+* Make compatible with ~~linux~~ and windows machines.
