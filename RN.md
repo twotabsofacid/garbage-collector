@@ -1,0 +1,61 @@
+## Garbage Collector
+
+> A digital trash dump
+
+**Format**: Artwork
+**Name**: Anna Bialas, Sean Scanlan 
+**Pronouns**: she/her, he/him
+**Location**: NYC, NY 
+**Email**: [janedoe@youremail.com]  
+**Twitter**: [@janedoe]  
+**Repo**: https://github.com/skiprox/garbage-collector 
+**Url(s)**: [https://example.com/]   
+**Consent to being photographed?**: [Yes / No]  
+**Consent to being on the livestream?**: [Yes / No]  
+
+
+
+
+**Speaker Bio and Profile Picture**
+
+Anna Bialas [Please tell us about your background, projects you've contributed to, if any, and your interests. Links to your website, open source projects, place of work, etc. **Maximum 100 words**]  
+
+[What communities do you identify yourself as being a part of? Why is this important in the work you do?]  
+
+[Link to bio picture, e.g. https://profile-picture.jpg]  
+
+*Note: Format for bio picture should be PNG/JPG/GIF, 256x256px.*
+
+Sean Scanlan [Please tell us about your background, projects you've contributed to, if any, and your interests. Links to your website, open source projects, place of work, etc. **Maximum 100 words**]  
+
+[What communities do you identify yourself as being a part of? Why is this important in the work you do?]  
+
+[Link to bio picture, e.g. https://profile-picture.jpg]  
+
+*Note: Format for bio picture should be PNG/JPG/GIF, 256x256px.*
+
+
+
+
+**Description**  
+
+[I am a proposal description. I will talk about this and that. This is some context for my work. These are some points I will make. My proposal definitely relates in some way to radio or networking technology. **Maximum 300 words**] 
+
+
+
+
+## Artwork installation requirements (if applicable)  
+
+Power, projector/screens, and network connectivity. 
+
+
+
+
+## Additional Info / Links / References  
+
+[If you wish, link us to anything else relevant to your work, like slide decks, code samples, videos, etc.]
+
+
+
+
+/label ~"radnets2019"
