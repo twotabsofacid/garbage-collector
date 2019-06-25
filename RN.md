@@ -6,12 +6,12 @@
 **Name**: Anna Bialas, Sean Scanlan 
 **Pronouns**: she/her, he/him
 **Location**: NYC, NY 
-**Email**: [janedoe@youremail.com]  
-**Twitter**: [@janedoe]  
-**Repo**: https://github.com/skiprox/garbage-collector 
-**Url(s)**: [https://example.com/]   
-**Consent to being photographed?**: [Yes / No]  
-**Consent to being on the livestream?**: [Yes / No]  
+**Email**: trashtraaash@gmail.com
+**Twitter**: @trashtraaash
+**Repo**: https://github.com/skiprox/garbage-collector
+**Url(s)**: http://trashtraaash.com
+**Consent to being photographed?**: No
+**Consent to being on the livestream?**: No
 
 
 
@@ -26,13 +26,9 @@ Anna Bialas [Please tell us about your background, projects you've contributed t
 
 *Note: Format for bio picture should be PNG/JPG/GIF, 256x256px.*
 
-Sean Scanlan [Please tell us about your background, projects you've contributed to, if any, and your interests. Links to your website, open source projects, place of work, etc. **Maximum 100 words**]  
+Sean Scanlan is a living human in the Northeast United States. He is pursuing his MFA at Parsons and is interested in digital loss, the hauntology, and political organizing.
 
-[What communities do you identify yourself as being a part of? Why is this important in the work you do?]  
-
-[Link to bio picture, e.g. https://profile-picture.jpg]  
-
-*Note: Format for bio picture should be PNG/JPG/GIF, 256x256px.*
+![Sean Scanlan](photos/sean.jpg)
 
 
 
