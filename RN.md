@@ -26,7 +26,7 @@ Anna Bialas [Please tell us about your background, projects you've contributed t
 
 *Note: Format for bio picture should be PNG/JPG/GIF, 256x256px.*
 
-Sean Scanlan is a living human in the Northeast United States. He is pursuing his MFA at Parsons and is interested in digital loss, the hauntology, and political organizing.
+Sean Scanlan is a living human in the Northeast United States. He is an MFA candidate at Parsons and is interested in digital loss, hauntology, and political organizing.
 
 ![Sean Scanlan](photos/sean.jpg)
 
