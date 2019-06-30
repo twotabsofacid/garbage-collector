@@ -1,6 +1,6 @@
 # Garbage Collector
 
-Garbage Collector is a background application that watches the trashcan on your computer and uploads every image you throw away to the cloud. With this, we've created an online trash dump for digital images, allowing anyone to come and scavange through the dump. We're proposing a projected wall work that looks through this digital trash, allowing visitors to the conference to see the digital waste of early users of this application.
+Garbage Collector is an application that watches the trashcan on your computer and uploads every image you throw away to the cloud. With this, we've created an online trash dump for digital images, allowing anyone to come and scavange through the dump. We're proposing a projected wall work that looks through this digital trash, allowing visitors to the conference to see the digital waste of early users of this application.
 
 Digital waste is interesting partly because when we delete the digital manifestation of it the physical often remains on our harddrives: deleting something only removes the pointer to where it was stored in memory, allowing it to be overwritten, the physical bytes still remain in memory.
 
