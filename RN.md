@@ -3,14 +3,23 @@
 > A digital trash dump
 
 **Format**: Artwork
+
 **Name**: Anna Bialas, Sean Scanlan 
+
 **Pronouns**: she/her, he/him
+
 **Location**: NYC, NY 
+
 **Email**: trashtraaash@gmail.com
+
 **Twitter**: @trashtraaash
+
 **Repo**: https://github.com/skiprox/garbage-collector
+
 **Url(s)**: []
+
 **Consent to being photographed?**: No
+
 **Consent to being on the livestream?**: No
 
 
@@ -20,9 +29,11 @@
 
 Anna is a software developer with the story page at The New York Times. She first prototyped Garbage Collector (then a site for strangers to trade digital trash called "Trash Exchange") in 2017 as a summer intern at the Harvard Library Innovation Lab. She holds a degree in Media, Culture, and Communication from New York University. 
 
+![Anna Bialas](https://github.com/skiprox/garbage-collector/tree/master/photos/anna.png)
+
 Sean is a living human in the Northeast United States. He is an MFA candidate at Parsons and is interested in digital loss, hauntology, and political organizing.
 
-![Sean Scanlan](photos/sean.jpg)
+![Sean Scanlan](https://github.com/skiprox/garbage-collector/tree/master/photos/sean.jpg)
 
 
 
