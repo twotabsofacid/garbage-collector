@@ -29,7 +29,7 @@
 
 Anna is a software developer with the story page at The New York Times. She first prototyped Garbage Collector (then a site for strangers to trade digital trash called "Trash Exchange") in 2017 as a summer intern at the Harvard Library Innovation Lab. She holds a degree in Media, Culture, and Communication from New York University. 
 
-![Anna Bialas](https://raw.githubusercontent.com/skiprox/garbage-collector/master/photos/anna.jpg)
+![Anna Bialas](https://raw.githubusercontent.com/skiprox/garbage-collector/master/photos/anna.png)
 
 Sean is a living human in the Northeast United States. He is an MFA candidate at Parsons and is interested in digital loss, hauntology, and political organizing.
 
