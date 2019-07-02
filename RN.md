@@ -18,15 +18,9 @@
 
 **Speaker Bio and Profile Picture**
 
-Anna Bialas [Please tell us about your background, projects you've contributed to, if any, and your interests. Links to your website, open source projects, place of work, etc. **Maximum 100 words**]  
+Anna is a software developer with the story page at The New York Times. She first prototyped Garbage Collector (then a site for strangers to trade digital trash called "Trash Exchange") in 2017 as a summer intern at the Harvard Library Innovation Lab. She holds a degree in Media, Culture, and Communication from New York University. 
 
-[What communities do you identify yourself as being a part of? Why is this important in the work you do?]  
-
-[Link to bio picture, e.g. https://profile-picture.jpg]  
-
-*Note: Format for bio picture should be PNG/JPG/GIF, 256x256px.*
-
-Sean Scanlan is a living human in the Northeast United States. He is an MFA candidate at Parsons and is interested in digital loss, hauntology, and political organizing.
+Sean is a living human in the Northeast United States. He is an MFA candidate at Parsons and is interested in digital loss, hauntology, and political organizing.
 
 ![Sean Scanlan](photos/sean.jpg)
 
