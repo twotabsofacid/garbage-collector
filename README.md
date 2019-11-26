@@ -6,7 +6,7 @@
 
 This project is inspired by the description of [Trash Exchange](https://lil.law.harvard.edu/sketches/trash-exchange/), a Sketch by the [Library Innovation Lab](https://lil.law.harvard.edu/).
 
-It's an attempt to create an application that monitors the trashcan on your computer, and every time you throw a screenshot away it actually saves it in a hidden folder on your computer for future use.
+It's an attempt to create an application that monitors the trashcan on your computer, and every time you throw an image away it actually saves it in a hidden folder on your computer for future use.
 
 ## Instructions
 
@@ -35,5 +35,5 @@ to run the actual program in the background of your computer.
 * Look into Dithering images to save space
 * Publish images online
 * Properly slugify file names
-* Make all images JPEGs
+* ~~Make all images JPEGs~~
 * Make compatible with ~~linux~~ and windows machines.
