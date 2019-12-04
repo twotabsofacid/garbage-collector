@@ -106,14 +106,15 @@ class TrashCollector {
 	 * This is a horrible fucking function to give us a correctly named file, with jpg at the end
 	 */
 	createNewImgName(name) {
-		if (name.indexOf('.png') !== -1) {
-			return `${name.split('.png')[0]}.jpg`;
-		} else if (name.indexOf('.jpg') !== -1) {
-			return name;
-		} else if (name.indexOf('.jpeg') !== -1) {
-			return `${name.split('.jpeg')[0]}.jpg`;
-		} else if (name.indexOf('.gif') !== -1) {
-			return `${name.split('.gif')[0]}.jpg`;
+		let noSpacesName = name.split(' ').join('-');
+		if (noSpacesName.indexOf('.png') !== -1) {
+			return `${noSpacesName.split('.png')[0]}.jpg`;
+		} else if (noSpacesName.indexOf('.jpg') !== -1) {
+			return noSpacesName;
+		} else if (noSpacesName.indexOf('.jpeg') !== -1) {
+			return `${noSpacesName.split('.jpeg')[0]}.jpg`;
+		} else if (noSpacesName.indexOf('.gif') !== -1) {
+			return `${noSpacesName.split('.gif')[0]}.jpg`;
 		}
 	}
 }
