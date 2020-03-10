@@ -67,7 +67,6 @@ class TrashCollector {
 			if (trashObj.type == 'file' && fs.existsSync(trashObj.path) && this.checkIfImg(trashObj)) {
 				// Copy the file here
 				// TODO, upload the file instead
-				//console.log(trashObj.path);
 				let newImgName = this.createNewImgName(trashObj.name);
 				sharp(`${trashObj.path}`)
 					.toFile(`${CONFIG.saved_trash}/${newImgName}`, (err, info) => {
